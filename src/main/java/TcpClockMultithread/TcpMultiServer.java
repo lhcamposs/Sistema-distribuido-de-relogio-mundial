@@ -3,6 +3,12 @@ package TcpClockMultithread;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Servidor TCP Concorrente (Multithread) para sistema de Relógio Mundial.
+ */
+
 public class TcpMultiServer {
     public static void main(String[] args) {
         int port = 5002;

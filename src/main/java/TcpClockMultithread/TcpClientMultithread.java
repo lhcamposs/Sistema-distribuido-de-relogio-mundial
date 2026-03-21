@@ -6,6 +6,12 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Cliente TCP que conecta ao servidor de Relógio Mundial, envia requisição e exibe resposta.
+ */
+
 public class TcpClientMultithread {
     public static void main(String[] args) {
         String serverAddress = "127.0.0.1";

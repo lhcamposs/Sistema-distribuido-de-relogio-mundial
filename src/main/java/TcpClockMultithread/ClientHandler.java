@@ -8,6 +8,12 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Thread dedicada para tratar as requisições de um cliente específico no servidor TCP.
+ */
+
 public class ClientHandler implements Runnable {
     private Socket clientSocket;
 

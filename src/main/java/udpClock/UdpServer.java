@@ -7,6 +7,12 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Servidor UDP que recebe requisições de regiões geográficas e retorna a data/hora correspondente.
+ */
+
 public class UdpServer {
     public static void main(String[] args) {
         int port = 5000;

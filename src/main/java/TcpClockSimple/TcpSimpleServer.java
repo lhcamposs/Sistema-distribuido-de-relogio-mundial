@@ -9,6 +9,12 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Servidor TCP sequencial (Single-Thread) para sistema de Relógio Mundial.
+ */
+
 public class TcpSimpleServer {
     public static void main(String[] args) {
         int port = 5001;

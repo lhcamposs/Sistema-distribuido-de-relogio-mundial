@@ -6,6 +6,12 @@ import java.net.InetAddress;
 import java.net.SocketTimeoutException;
 import java.util.Scanner;
 
+/**
+ * @author Luan Henrique Campos
+ * @date 20/03/2026
+ * @summary Cliente UDP que solicita a hora de uma região e implementa timeout de 5 segundos.
+ */
+
 public class UdpClient {
     public static void main(String[] args) {
         String serverAddress = "127.0.0.1";
